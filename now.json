@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "alias": [
+    "go-now2-hello-world"
+  ],
+  "builds": [
+    { "src": "*.go", "use": "@now/go" }
+  ],
+  "routes": [
+    { "src":"/", "dest":"/main.go" }
+  ]
+}
